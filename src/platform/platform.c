@@ -92,7 +92,6 @@ const char *system_OS(void)
     }
     return full_version;
 #elif defined(__APPLE__) || defined(__MACH__)
-    #include <TargetConditionals.h>
     #if TARGET_OS_MAC
         return "Mac OS X";
     #endif
