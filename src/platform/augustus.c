@@ -587,6 +587,8 @@ static void setup(const augustus_args *args)
 
 #ifdef __vita__
     const char *base_dir = VITA_PATH_PREFIX;
+#elif defined(__IPHONEOS__)
+    const char *base_dir = SDL_GetBasePath();
 #else
     const char *base_dir = args->data_directory;
 #endif
