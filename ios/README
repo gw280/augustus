@@ -1,0 +1,6 @@
+To build:
+
+- Copy Caesar 3 installed files to ios/caesar_data
+- Unzip SDL release 2.30.7 to ios/SDL
+- Unzip SDL_mixer release 2.8.0 to ios/SDL_mixer
+- Open ios/augustus/augustus.xcodeproj and build/run
